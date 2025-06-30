@@ -17,6 +17,9 @@ class HomePage extends StatelessWidget{
           Icon(Icons.shopping_bag),
         ],
       ),
+      body: Text('''Nature, in its purest form, is the embodiment of the physical world and all its living and non-living components. It encompasses everything from the vastness of the cosmos to the smallest microorganisms, showcasing a dynamic interplay of forces that shape our planet and sustain life. Nature provides us with essential resources like air, water''',style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.red),
+      overflow: TextOverflow.ellipsis,
+      maxLines: 4,),
     );
   }
 }

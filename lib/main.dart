@@ -1,4 +1,7 @@
+import 'package:first_app/container.dart';
 import 'package:first_app/home_page.dart';
+import 'package:first_app/iconwidget.dart';
+import 'package:first_app/image.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomePage(),
+      home: IconPage(),
       debugShowCheckedModeBanner: false,
     );
   }
