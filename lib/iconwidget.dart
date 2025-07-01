@@ -17,8 +17,8 @@ class IconPage extends StatelessWidget{
           Icon(Icons.shopping_bag),
         ],
       ),
-      body: Icon(Icons.home,size: 50,color: Colors.red),
-      
+      body: //Icon(Icons.home,size: 50,color: Colors.red),
+      ImageIcon(AssetImage("assets/icons/rabbit.png")),
     );
   }
 }
